@@ -1,0 +1,92 @@
+.product-nav{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.addresses-cls{
+    width: 69rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+.addresses-cls img{
+    height: 1.5rem;
+}
+
+.address-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 69rem;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 100vh;
+}
+
+.add-address-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1.9px dashed #AFAFAF;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+}
+
+.default-address-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #AFAFAF;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 12rem;
+}
+
+.p-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.p-name h6{
+    font-size: 11px;
+}
+
+.p-name img{
+    height: 1rem;
+}
+
+.additional-address-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #AFAFAF;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 12rem;
+}
+
+.address-contact p{
+    margin: .5rem 0;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    color: #FC8A06;
+}
+
+.side-border{
+    border-right: 1px solid #AFAFAF;
+    padding-right: .3rem;
+}

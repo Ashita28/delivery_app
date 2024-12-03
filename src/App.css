@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  box-sizing: border-box;
+}
+
+
+:root {
+  --font: "Poppins";
+  --btn-clr: "#FC8A06";
+  --footer-clr: "#D9D9D9";
+  --bottomFooter-clr: "#03081F"
+}
+
+.footer{
+  background-color: var(--footer-clr);
+}
+
+.mainfooter{
+  background-color: var(--footer-clr);
+}
+
+.subfooter{
+  background-color: var(--bottomFooter-clr);
+}

@@ -1,0 +1,105 @@
+.order-successful {
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    position: relative; /* Ensure pseudo-elements position correctly */
+  }
+  
+  .image-container {
+    position: relative; /* For positioning the shadow relative to the image */
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .image-container img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  
+  /* Shadow Effect with Animation */
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 6rem; /* Same as image size */
+    height: 6rem; /* Same as image size */
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0 0 0 12px #5ab95f3f;
+    z-index: 0;
+    animation: shadow-pulse 1.5s infinite ease-in-out; /* Breathing animation */
+  }
+  
+  /* Animation Keyframes for Shadow Pulsing 
+  @keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 10px 10px #32b6397d;
+    }
+    50% {
+      box-shadow: 0 0 20px 20px #32b6395b;
+    }
+    100% {
+      box-shadow: 0 0 10px 10px #32b6397d;
+    }
+  } */
+  
+  .success-sub-sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    font-size: smaller;
+  }
+  
+  .success-sub-sec1 h1 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .success-sub-sec1 p {
+    text-align: center;
+    color: #83858a;
+  }
+  
+  .success-sub-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    font-size: smaller;
+    border: 1px solid #000000;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .success-sub-sec2 p {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  
+  .success-sub-sec2 button {
+    background-color: #fc8a06;
+    border: none;
+    margin-top: 0.7rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .success-sub-sec2 button:hover {
+    background-color: #e67a05;
+  }
+  

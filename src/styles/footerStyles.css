@@ -1,0 +1,156 @@
+.footer{
+    height: 19rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 11px;
+}
+
+.mainfooter{
+    background-color: #D9D9D9;
+    height: calc(15rem - 3rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem 5rem;
+}
+
+.logo-cls{
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.col1-heading{
+    font-weight: bolder;
+}
+
+.col1 li{
+    list-style: none;
+}
+
+.col2 li{
+    list-style: none;
+    padding: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.col1 li, .col1 img, .col1 u, .col2 li:hover{
+    cursor: pointer;
+}
+
+.col2 p{
+    font-weight: bolder;
+
+}
+
+.subfooter{
+    background-color: #03081F;
+    color: white;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 1rem 5rem;
+}
+
+.subcol2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.stores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.connect{
+    height: 20px;
+    margin: 15px 1rem 0 0;
+}
+
+.appstore-cls{
+    background-color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.appstore-img{
+    height: 25px;
+}
+
+.appstore-img:hover{
+    cursor: pointer;
+}
+
+.playstore-cls{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.playstore-img{
+    height: 2rem;
+}
+
+.playstore-img:hover{
+    cursor: pointer;
+}
+
+.subscribe-cls{
+    background-color: #c4c2c2;
+    height: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 5px;
+}
+
+.subscribe-cls input{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    padding: 1rem;
+    outline: none;
+}
+
+.subscribe-cls button{
+    background-color: #FC8A06;
+    border: none;
+    height: 100%;
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: .7rem;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,136 @@
+.subhero-cls{
+    width: 69rem;
+    height: 25rem;
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    background: rgb(238,238,238);
+    background: linear-gradient(linear-gradient, rgba(238,238,238,1) 97%, rgba(224,225,220,1) 100%);
+}
+
+.subhero-sec{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subhero-img{
+    height: 27rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    z-index: 1;
+}
+
+.subhero-img-trans{
+    height: 27rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.heading1-cls img{
+    height: 3rem;
+}
+
+.heading1-cls span{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.heading2-cls{
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    position: relative;
+}
+
+#highlight{
+    color: #FC8A06;
+    text-decoration: underline;
+    margin-right: 1rem;
+}
+
+.heading2-cls span{
+    margin-right: 1rem;
+}
+
+
+.heading2-cls h2{
+    width: 30rem;
+    position: absolute;
+    background-color: #03081F;
+    border-radius: 2rem;
+    z-index: 0;
+    color: white;
+    font-weight: 500;
+    right: -0.5rem;
+    height: 3.5rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2.5rem;
+    font-size: xx-large;
+}
+
+.heading2-cls h6{
+    position: absolute;
+    bottom: .2rem;
+    left: 5rem;
+    font-weight: 500;
+    font-size: small;
+}
+
+.stores-cls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 13rem;
+    position: absolute;
+    right: 14rem;
+    bottom: 6rem;
+    gap: 2px;
+}
+
+.appstore{
+    background-color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.appstore_img{
+    height: 25px;
+}
+
+.appstore_img:hover{
+    cursor: pointer;
+}
+
+.playstore{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.playstore_img{
+    height: 2rem;
+}
+
+.playstore_img:hover{
+    cursor: pointer;
+}

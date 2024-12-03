@@ -1,0 +1,103 @@
+.about-orders-cards{
+    min-width: 50rem;
+}
+
+
+.about-order-cls{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+
+.order-cards-cls{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.order-detail-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    border: transparent;
+    width: 19.5rem;
+    border-radius: 8px;
+    height: 9rem;
+    font-size: x-small;
+    padding: 2rem 1.2rem;
+    box-shadow: -1px 3px 1rem 3px rgba(0, 0, 0, 0.2);
+}
+
+.order-card-cls{
+    height: 7.5rem;
+    border-radius: 7px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.order-card-cls::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 7px;
+    z-index: 1;
+    right: 0;
+  }
+
+.order-card-cls img{
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.order-add{
+    background-color: rgba(255, 255, 255, 0.904) ;
+    position: absolute;
+    bottom: 0;
+    right: -4px;
+    z-index: 2;
+    padding: 6px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 7px;
+}
+
+
+#order-add-img{
+    height: 29px;
+}
+
+.order-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.order-detail h6{
+    font-size: 13px;
+    font-weight:700;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+
+.order-detail p{
+    font-size: 8.5px;
+}
+
+#order-rate{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+

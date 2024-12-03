@@ -1,0 +1,40 @@
+.product-navbar-cls{
+    height: 2rem;
+    padding: 2rem 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-menu-cls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.productmenu-cls button{
+    border: none;
+    margin-left: 1rem;
+}
+
+.product-menu-btn{
+    background-color: transparent;
+}
+
+.product-logo-cls{
+    height: 2rem;
+}
+
+.product-login-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 4% 1.3rem;
+    border-radius: 2rem;
+    height: 2rem;
+    margin-top: 3px;
+}

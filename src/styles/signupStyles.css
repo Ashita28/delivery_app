@@ -1,0 +1,81 @@
+.signup-cls{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 7rem;
+    margin-bottom: 7rem;
+}
+
+.signup-img{
+    height: 90%;
+
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    padding: 0 1rem;
+}
+
+.sub-sign{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    font-size: xx-small;
+}
+
+.sub-sign label{
+    margin-bottom: 2px;
+}
+
+.sub-sign input, .signup-btn{
+    padding: 2.5%;
+    padding-left: 1rem;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.signup-btn{
+    background-color: #FC8A06;
+    border: none;
+    margin-top: 1em;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.logo{
+    height: 3rem;
+    margin: 1em auto;
+}
+
+.signup-form h1{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.signup-form p{
+    font-size: x-small;
+}
+
+.noacc-cls{
+    font-size: 12px;
+    text-align: center;
+}
+
+.noacc-cls span{
+    color: #FC8A06;
+}
+
+.noacc-cls span:hover{
+    cursor: pointer;
+}

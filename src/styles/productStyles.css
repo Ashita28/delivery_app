@@ -1,0 +1,246 @@
+.product-cls{
+    margin-bottom: 4rem;
+}
+
+.product-herosec{
+    width: 69rem;
+    height: 20rem;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-image: url('../assets/product/product_hero_bg.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sub-product-hero img{
+    height: 1rem;
+}
+
+.sub-product-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.product-hero-cls{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.product-hero-cls h1{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.product-hero-cls p{
+    font-size: x-small;
+    margin-top: 1rem;
+}
+
+.sub-product-heading{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.product-btn{
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 10px 1.5rem;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.product-clock{
+    position: absolute;
+    bottom: -1.5rem;
+    left: -2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 3rem;
+    width: 20rem;
+    background-color: #FC8A06;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.imgs{
+    width: 50%;
+    margin: auto;
+    height: 16rem;
+    position: relative;
+}
+
+#imgs1{
+    height: 100%;
+    position: absolute;
+    right: -4rem;
+    z-index: 0;
+}
+
+#imgs2{
+    height: 40%;
+    position: absolute;
+    bottom: -.5rem;
+    left: 7rem;
+    z-index: 1;
+}
+
+.sub-bar{
+    display: flex;
+    flex-direction: row;
+    width: 69rem;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.sub-bar h1{
+    font-size: larger;
+    padding-top: .5rem;
+}
+
+.sub-bar div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #03081F;
+    border-radius: 2rem;
+    padding: 9px 1rem;
+}
+
+#menu-search{
+    border: none;
+    outline: none;
+    color: #03081F;
+    font-weight: bold;
+}
+
+.product-cls nav{
+    margin: 2rem auto;
+}
+
+.product-cls ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1.3rem;
+    justify-content: space-evenly;
+    background-color: #FC8A06;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.product-cls nav li{
+    list-style: none;
+}
+
+#selected-product-option{
+    background-color: #03081F;
+    padding: 7px 2rem;
+    border-radius: 2rem;
+}
+
+.info{
+    width: 69rem;
+    height: 24rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+    background-color: #FBFBFB;
+    margin-bottom: 4rem;
+}
+
+.info p, .info span{
+    font-size: x-small;
+    margin-bottom: .6rem;
+}
+
+.info span{
+    font-weight: bold;
+}
+
+.info-card{
+    width: calc(69rem/3);
+    padding: 4rem 2.5rem;
+}
+
+#operational-card{
+    background-color: #03081F;
+    color: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.info-card-heading{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-card-heading img{
+    height: 2rem;
+}
+
+
+
+
+
+
+
+
+/* ajdust this part */
+
+.products-purchase-cls{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.all-products-cards-cls{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40rem;
+}
+
+.product-card-heading{
+    margin: 0 5rem 3rem 5rem;
+    margin-bottom: 7rem;
+}
+
+#product-heading-cls{
+    font-size: x-large;
+    margin-bottom: 3rem;
+}
+
+
+.product-heading-cls{
+    font-size: x-large;
+    margin-bottom: 3rem;
+    color: #FC8A06;
+}

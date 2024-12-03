@@ -1,0 +1,213 @@
+.herosection{
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    width: 69rem;
+    height: 25rem;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+    border-radius: 10px;
+    position: relative;
+    background-color: #ffffffa1;
+}
+
+
+
+.notification-cards{
+    z-index: 2;
+    font-size: x-small;
+}
+
+.notification-cards h6{
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.notification-cards img{
+    height: .7rem;
+}
+
+.notification-card1{
+    background-color: white;
+    padding: .5rem;
+    width: 15rem;
+    border-radius: .5rem;
+    position: absolute;
+    right: 5.5rem;
+    top: 5rem;
+
+}
+
+.notification-card2{
+    background-color: white;
+    padding: .5rem;
+    width: 15rem;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 8.5rem;
+    right: 1.5rem;
+}
+
+.noti-sub-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.notification-card3{
+    background-color: white;
+    padding: .5rem;
+    width: 15rem;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 3rem;
+}
+
+.num-highlight{
+    z-index: 2;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FC8A06;
+}
+
+#num1{
+    position: absolute;
+    top: 1.7rem;
+    -webkit-text-stroke: .5px #FFFFFF;
+}
+
+#num2{
+    position: absolute;
+    right: 2.5rem;
+    top: 8.9rem;
+    -webkit-text-stroke: .5px #FFFFFF;
+}
+
+#num3{
+    position: absolute;
+    bottom: 4.3rem;
+    right: 4rem;
+    -webkit-text-stroke: .5px #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.sub-sec1{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-bg{
+    height: 23rem;
+    width: 50%;
+}
+
+.subbg-img{
+    height: 23rem;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.person-img-cls{
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: row; /* Horizontal alignment */
+    height: 19rem;
+    width: 100%;
+    position: relative; /* Ensure relative positioning for child elements */
+    z-index: 2;
+}
+
+
+.person1-img{
+    position: absolute;
+    bottom: 0;
+    height: 21rem;
+    right: 8rem;
+    z-index: 3;
+}
+
+.person2-img{
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+    z-index: 2;
+    height: 95%;
+}
+
+
+
+.search-cls{
+    background-color: white;
+    margin-top: 1rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.search-cls div{
+    color: #000000;
+    padding: .62rem;
+    padding-left: 1.5rem;
+    width: 59%;
+    border: 1px solid rgb(128, 128, 128);
+    position: absolute;
+    bottom: -2.35rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    font-size: smaller;
+    border-right: none;
+}
+
+.search-cls button{
+    background-color: #FC8A06;
+    border: none;
+    padding: 3.3% 13%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: small;
+    height: 2.7rem;
+    position: absolute;
+    right: 2.7rem;
+    bottom: -38.5px;
+    font-weight: bold;
+}
+
+.sub-heading1{
+    font-size: smaller;
+}
+
+.sub-heading2{
+    font-size: 2.5rem;
+}
+
+.sub-heading3{
+    font-size: x-small;
+}
+
+.sub-sec3{
+    width: 30rem;
+    height: 23rem;
+    border-bottom-right-radius: .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

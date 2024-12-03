@@ -1,0 +1,117 @@
+.deals-cls{
+    height: 2rem;
+    padding: 3rem 5rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dealbar-cls h1{
+    font-size: medium;
+}
+
+.sub-dealbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.option-btn{
+    border: none;
+    background-color: transparent;
+}
+
+.selected-option{
+    border: 1px solid #FC8A06;
+    color: #FC8A06;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.deals-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin: 0 4rem 3rem 4rem;
+}
+
+.deals-card{
+    width: calc(100%/3);
+}
+
+.food-cls{
+    height: 11rem;
+    border-radius: 7px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-cls::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: 5rem -2rem 5rem 2px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 7px;
+    z-index: 1;
+  }
+
+.food-cls img{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.card-txt{
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+    z-index: 2;
+    height: 2rem;
+    padding: 1rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+#heading{
+    color: #FC8A06;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+#heading-sub{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+
+.discount-cls{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    z-index: 2;
+}
+
+.discount-cls p{
+    height: 100%;
+    font-size: smaller;
+}

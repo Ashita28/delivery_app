@@ -1,0 +1,133 @@
+.aboutus-cls{
+    height: 35rem;
+    margin: 2rem auto;
+    width: 69rem;
+    background: rgb(238,238,238);
+    background: linear-gradient(linear-gradient, rgba(238,238,238,1) 97%, rgba(224,225,220,1) 100%);
+    border-radius: 7px;
+    padding-top: 5rem;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutus-cls button{
+    padding: 0 1rem;
+}
+
+.other-query-options{
+    border: none;
+    background-color: transparent;
+}
+
+#selected-query{
+    border: 1px solid #FC8A06;
+    background-color: transparent;
+    padding: auto 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: x-small;
+
+}
+
+.knowus-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.about-sub-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 59rem;
+    margin: auto auto;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    gap: 2rem;
+    padding: 1rem 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.queries{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 2rem 4rem;
+    font-size: 11px;
+}
+
+
+#highlighted-query{
+    background-color: #FC8A06;
+    padding: .7rem 2rem;
+    border-radius: 2rem;
+}
+
+.more-about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.more-about-us p{
+    font-size: x-small;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+.aboutus-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-card{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 11rem;
+    width: 10rem;
+    margin-left: 1rem;
+    border-radius: .5rem;
+    background-color: #D9D9D9;
+}
+
+.about-card p{
+    font-size: x-small;
+}
+
+.about-card img{
+    height: 4.5rem;
+    margin: 1rem;
+}
+
+#deliver-card{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.end-heading{
+    margin-bottom: 2rem;
+}
